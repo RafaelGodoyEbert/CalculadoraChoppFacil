@@ -10,7 +10,7 @@ Esta é uma calculadora de consumo de bebidas para festas, desenvolvida com Java
   - Duração da festa (maior que 6 horas aumenta o consumo).
 
 ## Como usar
-Você pode acessar a calculadora de consumo de bebidas para festas por meio do seguinte link: [Calculadora de Consumo de Bebidas](https://rafaelgodoyebert.github.io/CalculadoraChoppFacil/)
+Você pode acessar a calculadora de consumo de bebidas para festas por meio do seguinte link: [Calculadora de Consumo de Bebidas](https://rafaelgodoyebert.github.io/CalculadoraChoppFacil/){:target="_blank"}
 
 1. Insira o número total de adultos que estarão presentes na festa.
 2. Marque a(s) opção(ões) correspondente(s) ao tipo de festa e bebidas que serão servidas.

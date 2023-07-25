@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Consumo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="video-background">
+          <source src="https://vod-progressive.akamaized.net/exp=1690338576~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4172%2F13%2F345862014%2F1390061316.mp4~hmac=2e75866ce6b79a8cd6c4b1693c293d7fb69ab5a045f443958c00369f0fdb2695/vimeo-prod-skyfire-std-us/01/4172/13/345862014/1390061316.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    
+        <div class="overlay"></div>
+    
+        <div class="vertical-center">
+          <div class="container">
+      <h1>Calculadora de Consumo</h1>
+      <label for="totalAdultos">Total de Adultos:</label>
+      <input type="number" id="totalAdultos" min="0" value="0">
+      <br>
+
+      <div class="radio-label">
+        <input type="radio" id="alcoolico" name="tipoFesta">
+        <label for="alcoolico">Tem outras bebidas alcóolicas? (destilado, vinho, ilha de caipiras)</label>
+      </div>
+      <br>
+
+      <div class="radio-label">
+        <input type="radio" id="happyHour" name="tipoFesta">
+        <label for="happyHour">É Happy Hour de Empresa?</label>
+      </div>
+      <br>
+
+      <div class="radio-label">
+        <input type="radio" id="festaCrianca" name="tipoFesta">
+        <label for="festaCrianca">É uma festa de criança?</label>
+      </div>
+      <br>
+
+      <div class="radio-label">
+        <input type="radio" id="nenhumaOpcao" name="tipoFesta">
+        <label for="nenhumaOpcao">Nenhuma opção selecionada</label>
+      </div>
+      <br>
+
+      <label for="tempoFesta">Qual o tempo da festa? (horas):</label>
+      <input type="number" id="tempoFesta" min="0" value="0">
+      <br>
+
+      
+
+      <button onclick="calcularConsumo()">Calcular</button>
+
+      <p id="resultado"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
